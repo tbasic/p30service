@@ -117,5 +117,8 @@
     <delete id="delete">
     	DELETE FROM REPLYBOARD WHERE BID=#{param1}
     </delete>
-    
+    <update id="upHit">
+    	UPDATE REPLYBOARD SET BHIT=BHIT+1 
+		WHERE BID=#{param1}
+    </update>
 </mapper>
