@@ -39,7 +39,7 @@ local.properties
 
 # sbteclipse plugin
 .target
-target/classes/META-INF/*
+/target/
 
 # Tern plugin
 .tern-project
